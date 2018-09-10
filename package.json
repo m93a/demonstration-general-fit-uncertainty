@@ -1,0 +1,31 @@
+{
+  "name": "general-fit-uncertainty",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/ml-levenberg-marquardt": "^1.0.0",
+    "labs-fitter": "^0.1.2",
+    "ml-levenberg-marquardt": "^1.0.3",
+    "ml-levenberg-marquardt-m93a": "git://github.com/m93a/levenberg-marquardt.git#npm",
+    "plotly.js": "^1.40.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-plotly.js": "^2.2.0",
+    "react-scripts-ts": "2.17.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "@types/node": "^10.9.4",
+    "@types/plotly.js": "^1.38.6",
+    "@types/react": "^16.4.13",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-plotly.js": "^2.2.1",
+    "typescript": "^3.0.3"
+  }
+}
